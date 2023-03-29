@@ -16,8 +16,8 @@
         <div class="container">
             <div class="slider-wrapper" tabindex="0">
 
-                    <div class="item" v-for="item in slides">
-                        <img v-if="isActive" :src=item.image :alt=item.alt />
+                    <div class="item">
+                        <img :src=slides[activeImg].image :alt=slides[activeImg].alt />
                         <div class="text">
                             <h3>Spiderman</h3>
                             <p>
